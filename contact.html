@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ANT R&D is a freelance research lab focused on African-relevant AI, datasets, and open-source tools in embedded systems and computer vision." />
+  <meta name="author" content="Charles Ekanem" />
+  <meta name="keywords" content="ANT R&D, African AI, Deepfake Detection, Open-source Tools, Akwa Ibom Datasets, Embedded Systems, Research, Nigeria, Computer Vision" />
+  <title>ANT R&D|Nigerian-Centered AI & Embedded systems Research</title>
+  
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS (optional if separated) -->
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+  
+<!-- Navbar -->
+<nav class="bg-gray-900 shadow-md sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="flex items-center space-x-3">
+      <img src="C:\Users\CHARLES EKANEM\Documents\ANT Research & Development\ANT-Website\Logo.png" alt="ANT R&D Logo" class="h-10 w-10 rounded-full"/>
+      <span class="text-purple-400 font-bold text-xl">ANT Research and Development</span>
+    </div>
+    <div class="hidden md:flex space-x-4 text-sm text-gray-300">
+      <a href="index.html" class="hover:text-purple-400">Home</a>
+      <a href="about.html" class="hover:text-purple-400">About</a>
+      <a href="projects.html" class="hover:text-purple-400">Projects</a>
+      <a href="publications.html" class="hover:text-purple-400">Publications</a>
+      <a href="team.html" class="hover:text-purple-400">Team</a>
+      <a href="contact.html" class="hover:text-purple-400">Contact</a>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button id="menuToggle" class="md:hidden text-purple-400 focus:outline-none">
+      ☰
+    </button>
+  </div>
+
+  <!-- Mobile Dropdown Menu -->
+  <div id="mobileMenu" class="hidden md:hidden flex flex-col px-4 py-2 text-sm text-gray-300 space-y-2">
+    <a href="index.html" class="hover:text-purple-400">Home</a>
+    <a href="about.html" class="hover:text-purple-400">About</a>
+    <a href="projects.html" class="hover:text-purple-400">Projects</a>
+    <a href="publications.html" class="hover:text-purple-400">Publications</a>
+    <a href="team.html" class="hover:text-purple-400">Team</a>
+    <a href="contact.html" class="hover:text-purple-400">Contact</a>
+  </div>
+</nav>
+
+<section id="contact" class="py-20 px-6 bg-gray-950 text-white">
+  <h2 class="text-4xl font-bold text-center text-purple-400 mb-10">Contact</h2>
+  <div class="max-w-xl mx-auto">
+    <form class="space-y-4">
+      <input type="text" placeholder="Name" class="w-full bg-gray-800 text-white px-4 py-2 rounded">
+      <input type="email" placeholder="Email" class="w-full bg-gray-800 text-white px-4 py-2 rounded">
+      <textarea placeholder="Message" class="w-full bg-gray-800 text-white px-4 py-2 rounded"></textarea>
+      <button type="submit" class="bg-purple-700 px-6 py-2 rounded hover:bg-purple-900 transition">Send Message</button>
+    </form>
+    <div class="mt-6 space-y-2 text-center">
+      <p><a href="#" class="text-purple-400 underline">Dataset Contribution Form</a></p>
+      <p><a href="#" class="text-purple-400 underline">Propose a Project</a></p>
+      <p><a href="#" class="text-purple-400 underline">Collaborate with Us</a></p>
+    </div>
+  </div>
+</section>
+
+<style>
+  #team img:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    menu.classList.toggle("hidden");
+  }
+</script>
+
+<!-- Footer -->
+<footer class="text-center py-6 text-sm text-gray-500">
+  © 2025 ANT R&D – Built by ANT Research and Development.
+</footer>
