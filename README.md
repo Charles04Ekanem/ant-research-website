@@ -12,7 +12,6 @@ We build real-world tools, ethically collect local datasets, develop open knowle
 ## 🔧 Technologies Used:
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Hosting**: [Vercel](https://vercel.com)
 - **Version Control**: [GitHub](https://github.com)
 
 ---
