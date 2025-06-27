@@ -1,1 +1,103 @@
-<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ANT R&D is a freelance research lab focused on African-relevant AI, datasets, and open-source tools in embedded systems and computer vision." />
+  <meta name="author" content="Charles Ekanem" />
+  <meta name="keywords" content="ANT R&D, African AI, Deepfake Detection, Open-source Tools, Akwa Ibom Datasets, Embedded Systems, Research, Nigeria, Computer Vision" />
+  <title>ANT R&D | Nigerian-Centered AI & Embedded systems Research</title>
+  
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="Images/Logo.png" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS (optional if separated) -->
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+  
+<!-- Navbar -->
+<nav class="bg-gray-900 shadow-md sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="flex items-center space-x-3">
+      <img src="Images/Logo.png" alt="ANT R&D Logo" class="h-10 w-10 rounded-full"/>
+      <span class="text-purple-400 font-bold text-xl">ANT Research and Development</span>
+    </div>
+</nav>
+
+<section id="careers" class="py-20 px-6 bg-gray-950 text-white">
+  <h2 class="text-4xl font-bold text-center text-purple-400 mb-10">Careers</h2>
+
+  <!-- Open Roles -->
+  <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-16">
+    
+    <!-- Role Card -->
+    <div class="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-purple-700 transition">
+      <h3 class="text-xl font-semibold text-purple-300 mb-2">Data Scientist / Data Engineer</h3>
+      <p class="text-sm text-gray-300 mb-2">Build pipelines, clean data, and support AI model training using local datasets like Nigerian urban audio, agricultural imagery, and more.</p>
+      <span class="text-xs text-gray-400 italic">Open for: Internship / Volunteering</span>
+    </div>
+
+    <div class="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-purple-700 transition">
+      <h3 class="text-xl font-semibold text-purple-300 mb-2">Robotics & Hardware Engineer</h3>
+      <p class="text-sm text-gray-300 mb-2">Design mechanical systems and embedded controls for indigenous robots and smart devices tailored for African terrains and use-cases.</p>
+      <span class="text-xs text-gray-400 italic">Open for: Internship / Part-time / Project-based</span>
+    </div>
+
+    <div class="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-purple-700 transition">
+      <h3 class="text-xl font-semibold text-purple-300 mb-2">Technical Product Manager</h3>
+      <p class="text-sm text-gray-300 mb-2">Coordinate R&D roadmaps, manage timelines, and align projects with field needs and real-world deployment in Nigeria.</p>
+      <span class="text-xs text-gray-400 italic">Open for: Volunteer / Contract</span>
+    </div>
+
+    <div class="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-purple-700 transition">
+      <h3 class="text-xl font-semibold text-purple-300 mb-2">Product Field Tester</h3>
+      <p class="text-sm text-gray-300 mb-2">Deploy and evaluate devices/models in Nigerian environments. Gather feedback and provide real-world data insights to the team.</p>
+      <span class="text-xs text-gray-400 italic">Open for: Volunteer / Paid Pilot</span>
+    </div>
+
+    <div class="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-purple-700 transition">
+      <h3 class="text-xl font-semibold text-purple-300 mb-2">Ethical & Localization Officer</h3>
+      <p class="text-sm text-gray-300 mb-2">Ensure ethical data collection, inclusive design, and effective localization for African languages and cultural realities.</p>
+      <span class="text-xs text-gray-400 italic">Open for: Part-time / Research Assistant</span>
+    </div>
+
+  </div>
+
+  <!-- Contact / Apply Form -->
+  <div class="max-w-xl mx-auto">
+    <form class="space-y-4">
+      <input type="text" placeholder="Name" class="w-full bg-gray-800 text-white px-4 py-2 rounded">
+      <input type="email" placeholder="Email" class="w-full bg-gray-800 text-white px-4 py-2 rounded">
+      <textarea placeholder="Message or Role You're Applying For" class="w-full bg-gray-800 text-white px-4 py-2 rounded"></textarea>
+      <button type="submit" class="bg-purple-700 px-6 py-2 rounded hover:bg-purple-900 transition">Send Application</button>
+    </form>  
+</section>
+
+<style>
+  #team img:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    menu.classList.toggle("hidden");
+  }
+</script>
+
+<!-- Footer -->
+<footer class="text-center py-6 text-sm text-gray-500">
+  © 2025 ANT R&D – Built by ANT Research and Development.
+</footer>
