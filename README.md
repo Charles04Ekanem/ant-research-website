@@ -16,10 +16,4 @@ We build real-world tools, ethically collect local datasets, develop open knowle
 
 ---
 
-## 🚀 Getting Started (for contributors)
 
-You can preview this site locally using any web server (e.g., VSCode Live Server or Python HTTP server):
-
-```bash
-# If using Python 3:
-python -m http.server
