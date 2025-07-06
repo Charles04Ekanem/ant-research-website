@@ -62,11 +62,15 @@
 <section id="contact" class="py-20 px-6 bg-gray-950 text-white">
   <h2 class="text-4xl font-bold text-center text-purple-400 mb-10">Contact</h2>
   <div class="max-w-xl mx-auto">
-    <form class="space-y-4">
-      <input type="text" placeholder="Name" class="w-full bg-gray-800 text-white px-4 py-2 rounded">
-      <input type="email" placeholder="Email" class="w-full bg-gray-800 text-white px-4 py-2 rounded">
-      <textarea placeholder="Message" class="w-full bg-gray-800 text-white px-4 py-2 rounded"></textarea>
-      <button type="submit" class="bg-purple-700 px-6 py-2 rounded hover:bg-purple-900 transition">Send Message</button>
+    <form action="https://formspree.io/f/xkgbkyqy" method="POST" class="space-y-4">
+      <input type="text" name="name" placeholder="Name" required class="w-full bg-gray-800 text-white px-4 py-2 rounded">
+      <input type="email" name="email" placeholder="Email" required class="w-full bg-gray-800 text-white px-4 py-2 rounded">
+      <textarea name="message" placeholder="Message" required class="w-full bg-gray-800 text-white px-4 py-2 rounded"></textarea>
+      <!-- Optional: Redirect user after submission -->
+      <input type="hidden" name="_next" value="https://antlab.com.ng/thank-you.html">
+      <!-- Optional: Spam protection (honeypot field) -->
+      <input type="text" name="_honey" style="display:none">
+      <button type="submit" class="bg-purple-700 px-6 py-2 rounded hover:bg-purple-900 transition">Send Application</button>
     </form>
     <div class="mt-6 space-y-2 text-center">
       <p><a href="consent form.pdf" class="text-purple-400">Dataset Contribution Form</a></p>
